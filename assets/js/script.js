@@ -38,22 +38,22 @@ function main() { //função mãe - usar para não poluir o conteúdo global//
             'Obesidade grau 1', 'Obesidade grau 2', 'Obesidade grau 3'];//colocando os resultados dos imc
 
         // condição que retorna o valor da var imc com o valor de nivel
-        if (imc >= 39.9) {
+        if (imc >= 39.99) {
             return nivel[5];
         }
-        if (imc >= 34.9) {
+        if (imc >= 34.99) {
             return nivel[4];
         }
-        if (imc >= 29.9) {
+        if (imc >= 29.99) {
             return nivel[3];
         }
-        if (imc >= 24.9) {
+        if (imc >= 24.99) {
             return nivel[2];
         }
-        if (imc >= 18.5) {
+        if (imc >= 18.59) {
             return nivel[1];
         }
-        if (imc < 18.5) {
+        if (imc < 18.59) {
             return nivel[0];
         }
     }
